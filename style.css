@@ -1,0 +1,672 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Header stylesheet started here */
+
+#header{
+    background-color: rgb(248, 248, 248);
+    
+}
+a.navbar-brand.font-weight-bold.mentor-size {color: #5fcf80;}
+.mentor-size{
+    font-size: 35px;
+
+}
+.nevbar-style{
+    font-size: 18px;
+}
+
+/* <!-- Header stylesheet ends here --> */
+
+
+/* image glarry started here */
+
+#glarry-img{
+    background-image: url(image/hero-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    margin-top: 78px;
+}
+
+.glarry-items{
+    margin-top: 180px;
+    color: white
+    ;
+}
+.glarry-items h1 {
+    font-weight: bold;
+    font-size: 60px;
+    width: 452px;
+}
+.glarry-items h3 {
+    font-weight: bold;
+}
+
+.btn-style{
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn-style:hover{
+    background: red;
+    color: wheat;
+
+}
+/* image glarry ends here */
+
+
+/* =======About Section start here============ */
+.dag{
+    content: "";
+    background: red;
+    height: 2px;
+    width: 106px;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 81px;
+}
+
+h3.fon-color {
+    color: #ddd;
+    font-weight: bold;
+    font-size: 23px;
+}
+.about-head h1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.about-head h3 {
+    font-size: 20px;
+    font-style: italic;
+}
+span.icon-size {
+    width: 100%;
+    padding: 1px 0px;
+    line-height: 20px;
+    display: block;
+}
+
+span.icon-size i {
+    color: green;
+    font-size: 20px;
+}
+
+span.font-bottom {
+    display: block;
+    margin-bottom: 21px;
+}
+
+.about-icone {
+    margin-bottom: 19px;
+}
+
+/* =======About Section ends here============ */
+
+
+
+/* <!-- =============all service member section started here=================== --> */ */
+
+
+#service-section{
+    background: #ddd;
+}
+section#service-section {
+    background: #ddd;
+}
+
+.col-lg-3.col-6.text-style {
+    font-size: 16px;
+    font-weight: bold;
+    color: #776666;
+    padding: 40px 0px;
+}
+
+.col-lg-3.col-6.text-style h1 {
+    font-weight: bold;
+    font-size: 54px;
+    color: #5fcf80;
+}
+
+/* <!-- =============all service member section ends here=================== --> */
+
+
+/* <!-- ==============Why choose mentor service stated here=================== --> */
+
+
+.box-style {
+    background: #5fcf80;
+    color: white;
+    padding: 24px;
+    border-radius: 10px;
+}
+
+.box-style h2 {
+    font-weight: bolder;
+}
+
+.box-style button {
+    color: white;
+    border-radius: 29%;
+    background: rgb(112, 199, 100);
+    padding: 12px 30px;
+   
+}
+
+.box-style button:hover {
+    background: white;
+}
+.text-center i {
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 43px;
+    color: #5fcf80;
+    background: #bfe2c9;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.text-center h2 {
+    font-weight: bold;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+.text-center {
+    /* margin: 0px; */
+    /* border: 1px solid #ddd; */
+    /* border-radius: 20px; */
+}
+      
+      
+/* <!-- ==============Why choose mentor service ends here=================== --> */
+
+
+
+/* <!-- ==============lorem icons Started here=================== --> */
+.box-icons {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.box-icons i {
+    float: left;
+    padding: 9px;
+    margin: 1px;
+    margin-top: 3px;
+    color: #5fcf80;
+    font-size: 29px;
+}
+
+.box-icons h3 {
+    margin-bottom: 19px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-size: 25px;
+}
+.box-icons a{
+    text-decoration: none;
+}
+
+
+/* <!-- ==============lorem icons Ends here=================== --> */
+
+
+/* <!-- ============popular Source started Here================== --> */
+
+
+.procing span {
+    width: 100px;
+    background: #5fcf80;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+}
+
+.procing h5 {
+    float: right;
+    font-weight: bold;
+}
+
+.procing {
+    margin-top: 29px;
+    margin-bottom: 17px;
+    padding: 10px;
+}
+
+.title-box h2 {
+    font-size: 29px;
+}
+
+.title-box p {
+    color: #afaaaa;
+}
+
+.img-resiging {
+    width: 40px;
+    border-radius: 100%;
+}
+
+.img-title.rounded-circel {
+    width: 50%;
+    float: left;
+}
+
+.comments-audienc {
+    width: 30%;
+    float: right;
+    margin-top: -31px;
+    color: #928080;
+}
+
+.img-title {
+    margin-top: 10px;
+}
+.title-box {
+    padding: 10px;
+}
+
+.Audience-responce {
+    padding: 10px;
+}
+.single-box {
+    border: 1px solid #ddd;
+}
+
+/* <!-- ============popular Source ends Here================== --> */
+
+
+/* <!-- ============Our Tainers all stated Here================== --> */
+.our-tems {
+    width: 134px;
+}
+
+.our-tems span {
+    content: "";
+    color: #5fcf80;
+    background: #5fcf80;
+    width: 109px;
+    height: 2px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 88px;
+}
+
+.our-tems h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #9c9c9c;
+}
+
+.our-time-icone {
+    text-align: center;
+}
+
+
+.ourtem-box-style p {
+    text-align: center;
+    color: #988f8f;
+    padding: 5px
+}
+
+.ourtem-box-style h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 16px;
+    font-family: 'Montserrat';
+    font-size: 21px;
+    padding: 5px
+}
+
+.ourtem-box-style h5 {
+    text-align: center;
+    font-style: italic;
+    padding: 5px
+}
+
+.ourtem-box-style {
+    border: 1px solid #ddd;
+}
+
+.our-time-icone i {
+    margin: 6px;
+    color: #a79f9f;
+}
+.our-time-icone i:hover {
+    transition: 0.3s;
+    color: #5fcf5f;
+}
+
+/* <!-- ============Our Tainers all Ends Here================== --> */
+
+
+/* <!-- This page last footer section started here --> */
+
+#footer {
+    background: #f9ebeb;
+}
+/* <!-- This page last footer section started here --> */
+
+
+ul.link-item {
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+ul.link-item a {
+    text-decoration: none;
+    color: #7b6e6e;
+    margin-left: -32px;
+    font-weight: bold;
+    line-height: 33px;
+}
+ul.link-item i {
+    color: #5fcf80;
+}
+
+button.btn.btn-primary {
+    background: #5fcf80;
+    border: navajowhite;
+    border-radius: 16px;
+    margin-left: 0px;
+}
+
+
+.form-outline input {
+    border-radius: 15px;
+}
+
+.footer-down {
+    background: #ddd;
+    padding: 30px 0px;
+}
+
+.col-lg-6.col-md-12 a {
+    color: #5fcf80;
+}
+.our-time-icon i {
+    margin-right: 21px;
+    background: #5fcd80;
+    padding: 14px;
+    color: white;
+    border-radius: 100%;
+}
+
+.our-time-icon {
+    margin-left: 256px;
+}
+
+
+
+
+i.fas.fa-arrow-circle-up {
+    background: #5fcf80;
+    border-radius: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+
+a.back-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+/* <!-- ===============About page/ About us section Stated Ends here=================== --> */
+.about-us {
+    margin-top: 77px;
+}
+
+section#about {
+    background: #5fcf80;
+    text-align: center;
+}
+
+/* <!-- ===============About page/ About us section Ends here=================== --> */
+
+
+
+/* <!-- =============About page/What are they sying section Stated here=================== --> */
+
+section#what-are-they {
+    background: #fdf6f6;
+}
+
+img.image-style.d-block {
+    margin: auto;
+    width: 200px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.text-primarys {
+    text-align: center;
+    padding: 10px;
+    color: #524c4c;
+}
+
+div#carouselExampleCaptions {
+    padding: 50px;
+}
+
+.what-title {
+    text-align: center;
+    font-style: italic;
+}
+
+/* ========== */
+
+.imgbox {
+    width: 50%;
+    float: left;
+}
+
+img.img-s {
+    border-radius: 100%;
+    width: 120px;
+    margin: 28px 10px;
+}
+
+.imgbox {
+    text-align: center;
+}
+
+/* <!-- =============About page/What are they sying section ends here=================== --> */
+
+
+ 
+/* <!-- ==========Events page/ SEction started here========== --> */
+
+.box-everts-title {
+    padding: 40px 13px;
+    background: #f7f7f7;
+    box-shadow: 7px 7px 8px 1px #ddd;
+    margin-top: -65px;
+    position: relative;
+    width: 450px;
+    margin-left: 51px;
+}
+
+.box-everts-title h3 {
+    text-align: center;
+    font-weight: 700;
+    color: #afa8a8;
+}
+
+.box-everts-title span {
+    margin-left: 58px;
+
+}
+
+.box-everts-title p {
+    margin-top: 20px;
+}
+.evernts-img :hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+        
+/* <!-- ==========Events page/ SEction Ends    here========== --> */
+
+
+/* <!-- =============Page prcing/ Sections pricing stated Here============== --> */
+
+
+
+.pricing-btn a {
+    background: #5fcf80;
+    border-radius: 25px;
+    padding: 10px;
+}
+.pricing-heads {
+    background: #5fcf80;
+    padding: 14px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.pricing-boxs.text-center {
+    border: 1px solid #f5efef;
+}
+
+
+.pricing-heads h3 {
+    font-weight: bold;
+}
+
+.pricing-btn button {color: white;}
+
+.pricing-head {
+    background: #fbf7f7;
+    padding: 14px;
+    margin-bottom: 34px;
+}
+
+.pricing-head h3 {
+    font-weight: 600;
+    color: #696262f2;
+}
+
+.pricing-btn {
+    background: #f9f7f7;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.pricing-month h4 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #5fcf80;
+}
+
+.pricing-month span {
+    font-size: 17px;
+    color: black;
+    margin-left: 12px;
+}
+
+.pricing-month sup {
+    font-size: 24px;
+    margin-right: 5px;
+    top: -23px;
+}
+
+/* <!-- =============Page prcing/ Sections pricing stated Here============== --> */
+
+
+
+/* ==========Contact sections started here ============ */
+
+.locations h2 {
+    font-weight: revert;
+    margin-left: 0px;
+    color: #544f4f;
+}
+
+.locations span {
+    font-size: 15px;
+    margin-left: 41px;
+}
+
+.locations i {
+    color: #5fcf80;
+    margin-right: 10px;
+}
+
+.input-box-email i {
+    color: #5fcf80;
+    margin-right: 6px;
+}
+
+.input-box-email h2 {
+    font-weight: bold;
+    color: #382e2e;
+}
+
+.input-box-email span {
+    font-size: 15px;
+    margin-left: 41px;
+}
+
+.input-call i {
+    color: #5fcf80;
+    margin-right: 5px;
+}
+
+.input-call h2 {
+    font-weight: bold;
+    color: #484343;
+}
+
+.input-call span {
+    font-size: 15px;
+    margin-left: 38px;
+}
+
+.input-call {
+    margin-top: 31px;
+}
+
+.input-box-email {
+    margin-top: 28px;
+}
+textarea#text {
+    width: 100%;
+    border-color: #ddd;
+}
+input.form-group.style-size {
+    width: 49%;
+    padding: 3px;
+    
+}
+
+/* ==========Contact sections Ends here ============ */
